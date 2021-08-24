@@ -16,3 +16,6 @@
 - title: Html Preview
   link: /htmlpreview/
   show_on_mobile: true  
+- title: Excute Python Code Online
+  link: /thebe/
+  show_on_mobile: true  
