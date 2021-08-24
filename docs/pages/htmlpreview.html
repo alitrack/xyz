@@ -11,12 +11,13 @@ permalink: /htmlpreview/
 <section class="intro">
 	<div class="grid">
 	  <div class="unit whole align-center">
-		<p>Enter URL of the HTML file to preview:</p>
+		Enter URL of the HTML file to preview:<br/><br/><br/>
 		<form id="previewform" onsubmit="location.href='?'+this.file.value;return false">
 				<input type="url" id="file" value="" placeholder="e.g. https://github.com/user/repo/blob/master/index.html" size="60" autofocus>
 				<input type="submit" value="Preview">
 		</form>
-		<p>or prepend to the URL: <code><strong>https://alitrack.github.io/xyz/htmlpreview/?</strong>https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</code></p>
+		<br/><br/><br/>
+		or prepend to the URL: <code><strong>https://alitrack.github.io/xyz/htmlpreview/?</strong>https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</code><br/><br/>
 		<script src="{{ 'js/htmlpreview.js' | relative_url }}"></script>
 	</div>
 	</div>
